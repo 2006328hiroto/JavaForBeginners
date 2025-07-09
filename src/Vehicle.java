@@ -8,8 +8,12 @@ public class Vehicle {
         this.vx = vx;
         this.vy = vy;
 	}
+	public void draw(MyFrame frame) {
+        // 空実装または適当な描画コード
+    }
 	 public void move() {
 	        x += vx;
 	        y += vy;
 	    }
+	 
 }
